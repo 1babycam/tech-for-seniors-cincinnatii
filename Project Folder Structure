@@ -1,0 +1,33 @@
+my-portfolio/
+│
+├─ public/                   # Static files (images, favicon, etc.)
+│   ├─ favicon.ico
+│   ├─ profile.jpg           # Your profile picture
+│   └─ social-icons/         # Social media icons
+│
+├─ src/
+│   ├─ pages/
+│   │   ├─ index.js          # Homepage
+│   │   ├─ about.js          # About page
+│   │   ├─ projects.js       # Projects/portfolio page
+│   │   ├─ contact.js        # Contact page
+│   │   └─ _app.js           # Next.js wrapper (for Tailwind & global styles)
+│   │
+│   ├─ components/
+│   │   ├─ Navbar.js
+│   │   ├─ Footer.js
+│   │   ├─ ProjectCard.js
+│   │   └─ ContactForm.js
+│   │
+│   ├─ styles/
+│   │   ├─ globals.css       # Tailwind import
+│   │   └─ tailwind.css      # Optional extra styling
+│   │
+│   └─ utils/
+│       └─ contactInfo.js    # Your updated contact info
+│
+├─ .gitignore
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+└─ README.md
